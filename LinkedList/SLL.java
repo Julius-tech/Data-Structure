@@ -138,4 +138,16 @@ public class SLL{
         return rep;
     }
 
+    public static void main(String[] args) {
+      
+      SLL list = new SLL();
+      SLL list2 = new SLL(1);
+      SLL list3 = new SLL(new int[]{1,2});
+      System.out.println(list3);
+      list3.reverseList();
+      System.out.println(list3);
+      SLL list4 = new SLL(new int[]{1,0,1});
+      System.out.println(list4.binaryToDecimal());
+    }
+
 }
